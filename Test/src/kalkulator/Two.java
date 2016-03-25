@@ -33,6 +33,7 @@ public class Two extends JFrame{
 		b17 = new JButton("             CE            ");
 		b18 = new JButton(" ,");
 		t1 = new JTextField("0",15);
+		t1.setEditable(false);
 		add(t1);
 		add(b17);
 		add(b14);
